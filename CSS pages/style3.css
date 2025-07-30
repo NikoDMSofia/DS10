@@ -1,3 +1,6 @@
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +11,9 @@ img {
     width: 100%;
 }
 
-
+.screen {
+    display: none;
+}
 
 
 
@@ -21,17 +26,37 @@ img {
 
 
 @media (max-width: 720px) {
+    .screen {
+        display: none;
+    }
+    .head_content {
+        h1 {
+            font-size: 26px;
+            span {
+                font-weight: lighter;
+                font-size: 24px;
+            }
+        }
+        h2 {
+            font-size: 20px;
+        }
+    }
     .head_content img {
         margin-top: -11%;
+        
     }
    .face_image {
     display: flex;
     justify-content: left;
+    align-items: center;
+
       img {
-        border-radius: 100%;
+        border-radius: 50%;
         width: 30%;
         margin-top: -20%;
       }
+
+      
     }
      
      section {
@@ -42,7 +67,7 @@ img {
 
      .introduction {
         text-align: justify;
-        margin: 50px 10px;
+        margin: 50px 25px;
      }
 
     .boxes {
@@ -64,7 +89,7 @@ img {
         cursor: pointer;
     }
 
-    .first_exercises_image {
+    .first_exercises_image, .ending_details {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -94,9 +119,14 @@ img {
         margin-top: 50px;
         text-align: center;
     }
-    span {
+    .exe_name span {
         text-transform: uppercase;
     }
+
+    
+       
+
+    
 
     
 
