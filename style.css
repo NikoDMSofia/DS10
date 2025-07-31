@@ -1,91 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    background-color: #E7D3D3;
-}
 
-img {
-    width: 100%;
-}
-
-
-
-
-@media (min-width: 719px) {
-    .head_content {
-        opacity: 0;
-    }
-
-}
-
-
-@media (max-width: 720px) {
-   .face_image {
+div {
+    height: 50rem;
     display: flex;
+    align-items: center;
     justify-content: center;
-      img {
-        border-radius: 100%;
-        width: 30%;
-        margin-top: -10%;
-      }
-    }
-    .buttons {
-        margin-top: 50px;
-    }
-
-     .monday,.tuesday,.wednesday, .thursday, .friday, .saturday, .sunday {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 10px;
-        button {
-            width: 300px;
-            height: 50px;
-            font-weight: 600;
-            font-size: large;
-            font-family: "Oswald", sans-serif;   
-            background-color: #E7D3D3;
-            border: 1px solid black;
-            color: black;
-            letter-spacing: 0.7px;
-        }
-     }
-
-     
-.trener_name {
-    text-align: center;
-    margin-top: -50px;
-    font-family: "Oswald", sans-serif;    
-    font-size: 40px;
-    
-    span {
-        font-size: 4rem;
-        font-weight: bolder;
-        color: rgb(192, 27, 27);
-    }
 }
-
-.personal_trainer {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 16px;
-    margin-top: -15px;
-    font-weight: bold;
-    background-color:  rgba(0, 0, 0, 0.575);
-    color: #EEEEEE;
-    padding: 5px;
-    letter-spacing: .2rem;
-    text-shadow: 2px 2px black;
-    font-family: "Oswald", sans-serif; 
-}
-
-
-
-    }
