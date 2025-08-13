@@ -1,19 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
-
-body {
-    background-image: url(download.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed ;
-    background-size: contain;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
 }
 
-
-div {
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 7rem;
-    font-family: "Oswald", sans-serif;
-    color: rgb(185, 127, 50);
-}
