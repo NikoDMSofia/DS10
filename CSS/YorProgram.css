@@ -8,7 +8,9 @@
     font-family: "Outfit", sans-serif;
 }
 
-
+img {
+    width: 2em;
+}
 
 .training_container {
     background-color: antiquewhite;
@@ -30,7 +32,7 @@
     
 }
 .training_container .august {
-    width: 80%;
+    width: 90%;
     height: 3em;
     background-color: rgba(255, 255, 255, 0.555);
     display: flex;
@@ -38,13 +40,20 @@
     align-items: center;
 }
 .training_container .data{
-    border: 1px solid black;
+    border: .01px solid black;
+}
+
+.training_container .data:first-child{
+    font-weight: 300;
 }
 
 .training_container a {
     text-decoration: none;
+    
 }
-
+.playBut {
+    margin-top: .3em;
+}
 .training_container  .data {
     flex: 1 1 0;
     text-align: center;
