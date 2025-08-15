@@ -76,5 +76,6 @@ img {
 }
 
 #done {
-    opacity: .2;
+    opacity: .15;
+    z-index: -1;
 }
