@@ -64,9 +64,9 @@ img {
     font-weight: 500;
     font-size: 1.2em;
 }
-.training_container .data:nth-child(3) {
+.training_container .data:nth-child(2) {
     color: rgb(55, 139, 66);
 }
-.training_container .data:nth-child(4) {
-    color: green;
+#colorRed {
+    color: rgb(230, 57, 57);
 }
