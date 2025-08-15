@@ -51,3 +51,19 @@
     align-items: center;
     flex-direction: column;
 }
+
+
+@media (max-width: 940px) {
+    .conteiner_ {
+        padding: 5em;
+    }
+    .month  {
+        text-align: center;
+    }
+}
+
+@media (min-width: 940px) {
+    .conteiner_ {
+        padding: 5em;
+    }
+}
