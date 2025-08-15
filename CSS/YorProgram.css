@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Oswald:wght@200..700&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+
+
+.training_container {
+    background-color: antiquewhite;
+    height: 100vh;
+}
+.training_container .content {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.training_container .august_sheduel {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: .3em;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.training_container .august {
+    width: 80%;
+    height: 3em;
+    background-color: rgba(255, 255, 255, 0.555);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.training_container .data{
+    border: 1px solid black;
+}
+
+.training_container a {
+    text-decoration: none;
+}
+
+.training_container  .data {
+    flex: 1 1 0;
+    text-align: center;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+.training_container .data:nth-child(3) {
+    color: rgb(55, 139, 66);
+}
+.training_container .data:nth-child(4) {
+    color: green;
+}
