@@ -14,7 +14,6 @@ img {
 
 .training_container {
     background-color: antiquewhite;
-    height: 100vh;
 }
 .training_container .content {
     height: 15vh;
@@ -69,4 +68,9 @@ img {
 }
 #colorRed {
     color: rgb(230, 57, 57);
+}
+
+.head_title {
+    font-weight: 100;
+    font-family: "Outfit", sans-serif;
 }
